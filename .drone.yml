@@ -3,6 +3,10 @@ kind: pipeline
 type: kubernetes
 name: default
 
+trigger:
+  branch:
+  - master
+
 steps:
 - name: greeting
   image: golang:1.12
