@@ -13,5 +13,5 @@ steps:
 - name: greeting
   image: golang:1.12
   commands:
-  - echo test
+  - echo Hello world!
   - echo done
